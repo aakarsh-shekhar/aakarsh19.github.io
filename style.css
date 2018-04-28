@@ -81,12 +81,32 @@ img:hover {
 
 .content {
 	text-align: center;
-	padding: 50px;
-
 }
 
 #intro {
   font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
   color: black;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  padding: 50px;
   }
+
+ .card {
+ 	background-color: black;
+ 	opacity: 0.7;
+ 	color: pink;
+ 	margin: 0px 40px;
+ 	padding: 10px;
+ }
+
+ .card:hover {
+ 	box-shadow: 0px 0px 20px black; 
+ }
+
+ .card a {
+ 	color: red;
+ 	text-decoration: none;
+ }
+
+ .card a:hover {
+ 	color: lightcoral;
+ } 
