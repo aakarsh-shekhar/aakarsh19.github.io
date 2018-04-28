@@ -15,9 +15,13 @@ html, body {
 }
 
 @media screen and (max-width: 600px) {
-	.nav a{
-		float: none;
+	.nav {
 		width: 100%;
+	}
+
+	.nav li {
+		padding-left: 0px;
+		padding-right: 20px;
 	}
 }
 
@@ -112,8 +116,13 @@ img:hover {
  .card a {
  	color: red;
  	text-decoration: none;
+ 	font-size: 15px;
  }
 
  .card a:hover {
  	color: lightcoral;
  } 
+
+ .card h2 {
+ 	font-size: 30px;
+ }
