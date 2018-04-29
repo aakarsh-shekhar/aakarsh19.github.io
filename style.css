@@ -95,6 +95,13 @@ img:hover {
 	text-align: center;
 }
 
+.content img {
+	height: 350px;
+	width: auto;
+	box-shadow: 0px 0px 5px black; 
+	margin-top: -50px;
+}
+
 #intro {
   font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
   color: black;
