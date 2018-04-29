@@ -263,7 +263,8 @@ img:hover {
   }
   
   /* Make all right containers behave like the left ones */
-  .right {
+  .right, .left {
     left: 0%;
   }
+
 }
