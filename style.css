@@ -22,6 +22,7 @@ html, body {
 	.nav li {
 		padding-left: 0px;
 		padding-right: 20px;
+		font-size: large;
 	}
 }
 
