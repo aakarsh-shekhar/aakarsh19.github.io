@@ -6,12 +6,14 @@ html, body {
 
 .nav {
 	background-color: black;
-	opacity: 0.6;
 	color: white;
 	height: 70px;
+	width: 100%;
 	font-weight: bold;
 	overflow: hidden;
 	top: 0;
+	position: fixed;
+	z-index: 1;
 }
 
 @media screen and (max-width: 600px) {
@@ -55,13 +57,13 @@ html, body {
 
 .footer {
 	background-color: white;
-	opacity: 0.75;
+	opacity: 0.9;
 	color: grey;
-	height: 30px;
-	padding: 20px;
-	position: fixed;
+	height: 70px;
 	bottom: 0;
 	width: 100%;
+	position: fixed;
+	z-index: 1;
 }
 
 .footer a {
@@ -76,6 +78,7 @@ html, body {
 .footer img {
 	float: right;
 	margin-right: 30px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -93,6 +96,7 @@ img:hover {
 }
 
 .content {
+	margin-top: 100px;
 	text-align: center;
 }
 
@@ -233,7 +237,7 @@ img:hover {
     padding: 20px 30px;
     background-color: white;
     position: relative;
-    border-radius: 6px;
+    border-radius: 15px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -245,7 +249,7 @@ img:hover {
   
   /* Full-width containers */
   .container {
-    width: 100%;
+    width: 60%;
     padding-left: 70px;
     padding-right: 25px;
   }
