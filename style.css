@@ -1,12 +1,12 @@
 html, body {
 	font-family: sans-serif;
-	background-image: url("assets/background.jpg");
+	background-image: url("assets/background.png");
 	font-size: x-large;
 }
 
 .nav {
 	background-color: black;
-	opacity: 0.5;
+	opacity: 0.6;
 	color: white;
 	height: 70px;
 	font-weight: bold;
@@ -22,7 +22,7 @@ html, body {
 	.nav li {
 		padding-left: 0px;
 		padding-right: 20px;
-		font-size: large;
+		font-size: 5%;
 	}
 }
 
