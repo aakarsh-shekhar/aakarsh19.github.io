@@ -1,11 +1,11 @@
 html, body {
-	font-family: sans-serif;
-	background-image: url("assets/background.png");
+	font-family: 'Open Sans', sans-serif;
 	font-size: x-large;
 }
 
 .nav {
-	background-color: black;
+	/*background-color: lightgray;*/
+  border-bottom: 1px solid black;
 	color: white;
 	height: 70px;
 	width: 100%;
@@ -57,13 +57,13 @@ html, body {
 }
 
 .footer {
-	background-color: white;
+	background-color: lightgray;
 	opacity: 0.9;
 	color: grey;
 	height: 70px;
 	bottom: 0px;
 	width: 100%;
-	/*   position: fixed;   */
+	position: fixed;
 	z-index: 2;
 }
 
@@ -89,7 +89,7 @@ img {
 	width: auto;
 	opacity: 1.0;
 	display: inline-block;
-    text-align: center;
+  text-align: center;
 }
 
 img:hover {
@@ -97,7 +97,7 @@ img:hover {
 }
 
 .content {
-	margin-top: 90px;
+	margin-top: 72px;
 	text-align: center;
 }
 
@@ -108,12 +108,32 @@ img:hover {
 	margin-top: 0px;
 }
 
-#intro {
-  font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
-  color: black;
-  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
-  padding: 10px 50px 0px;
-  }
+.leftCol {
+  width: 50%;
+  height: 600px;
+  left: 0;
+  float: left;
+  background-image: url("assets/background.jpg");
+  box-shadow: 0px 0px 5px black; 
+}
+
+.rightCol {
+  width: 50%;
+  height: 500px;
+  float: right;
+}
+
+.rightCol h3 {
+  padding-top: 200px;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.rightCol p {
+  font-size: 20px;
+  padding-left: 30px;
+  text-align: left;
+}
 
  .card {
  	background-color: black;
